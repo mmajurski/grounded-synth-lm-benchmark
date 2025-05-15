@@ -1,0 +1,10 @@
+[project]
+name = "grounded-synth-lm-benchmark"
+version = "0.1.0"
+description = "Synthetic LM benchmarking from grounding documents"
+readme = "README.md"
+dependencies = [
+    "datasets>=3.6.0",
+    "inspect-ai==0.3.72",
+    "openai>=1.78.1",
+]
